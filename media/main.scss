@@ -1,0 +1,100 @@
+@media (max-width: 375px) {
+  .nav_bar {
+    display: none;
+  }
+
+  .burger {
+    display: inline-block;
+    position: relative;
+    top: 20px;
+  }
+
+  .hero_content {
+    display: block;
+    padding-top: 65px;
+  }
+
+  .hero_lang {
+    display: none;
+  }
+
+  .logo {
+    font-size: 47px;
+    line-height: 58px;
+    margin-bottom: 23px;
+  }
+
+  .res_burger {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hero_text {
+    margin-bottom: 37px;
+    line-height: 22px;
+  }
+
+  .hero_img {
+    display: none;
+  }
+
+  .hero_img_sec {
+    display: block;
+    margin-bottom: 83px;
+  }
+
+  .about_section {
+    padding: 81px 0 76px 0;
+    margin-bottom: 83px;
+  }
+
+  .about_text {
+    width: 316px;
+  }
+
+  .skils_contents {
+    flex-direction: column;
+    margin-bottom: 99px;
+  }
+
+  .star_img {
+    margin-bottom: 82px;
+  }
+
+  .skils_info {
+    margin-bottom: 70px;
+  }
+
+  .skils_title {
+    margin-bottom: 50px;
+  }
+
+  .portfolio_title {
+    margin-bottom: 65px;
+  }
+
+  .portfolio_img {
+    width: 316px;
+    height: 171px; 
+    margin-bottom: 33px;  
+  }
+
+  .portfolio {
+    padding: 81px 0 81px 0;
+  }
+  
+  .social_link {
+    margin-right: 52px;
+  }
+
+  .social_text {
+    width: 250px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  .contact_link {
+    width: 316px;
+  }
+}

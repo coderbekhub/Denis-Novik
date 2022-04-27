@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 945px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.nav_bar {
+  padding-top: 33px;
+}
+
+.nav_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  margin-bottom: 32px;
+}
+
+.nav_link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+}
+
+.nav_activ {
+  color: #070707;
+}
+
+hr {
+  width: 100%;
+  height: 0px;
+  border: 1px solid #828282;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+  margin-bottom: 40px;
+}
+
+.hero_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.logo {
+  font-size: 47.3392px;
+  line-height: 59px;
+  color: #070707;
+  width: 124px;
+}
+
+.hero_text {
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  width: 156px;
+}
+
+.hero_lang {
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.hero_eng {
+  color: #070707;
+  font-weight: 700;
+}
+
+.hero_img {
+  width: 100%;
+  height: 387px;
+  margin-bottom: 104px;
+}
+
+.hero_img_sec {
+  display: none;
+}
+
+.burger {
+  display: none;
+}
+
+.about_section {
+  background-color: #F6F6F6;
+  padding: 120px 0 107px 0;
+  margin-bottom: 91px;
+}
+
+.about_content {
+  text-align: center;
+  margin-bottom: 91px;
+}
+
+.about_title {
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+  margin-bottom: 18px;
+}
+
+.about_text {
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  width: 485px;
+  margin: 0 auto;
+}
+
+.skils_info {
+  text-align: center;
+  margin-bottom: 84px;
+}
+
+.skils_title {
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+  margin-bottom: 70px;
+}
+
+.skils_text {
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+
+.skils_contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 124px;
+}
+
+.skils_img {
+  width: 89px;
+  height: 88px;
+  margin-bottom: 24px;
+}
+
+.skils_heading {
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  width: 80px;
+  text-align: center;
+  margin-bottom: 41px;
+}
+
+.star_img {
+  text-align: center;
+  position: relative;
+  right: 35px;
+}
+
+.skils_content {
+  margin-left: 60px;
+}
+
+.figma {
+  margin-bottom: 57px;
+}
+
+.portfolio {
+  background-color: #F6F6F6;
+  padding: 100px 0 110px 0;
+}
+
+.portfolio_contents {
+  text-align: center;
+}
+
+.portfolio_title {
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+  margin-bottom: 47px;
+}
+
+.portfolio_img {
+  width: 936px;
+  height: 510px;
+  margin-bottom: 45px;
+}
+
+.portfolio_text {
+  font-size: 18px;
+  line-height: 22px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #070707;
+  margin-bottom: 100px;
+}
+
+.contacts {
+  padding: 100px 0 123px 0;
+}
+
+.contact_info {
+  text-align: center;
+}
+
+.contact_title {
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+  margin-bottom: 20px;
+}
+
+.contact_text {
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  width: 275px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.contact_link {
+  width: 180px;
+  height: 42px;
+  background-color: #070707;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 12px 29px;
+  display: block;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  margin-bottom: 86px;
+}
+
+.social_contents {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.social_list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 45px;
+}
+
+.social_link {
+  margin-right: 52px;
+}
+
+.social_text {
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  width: 243px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */
